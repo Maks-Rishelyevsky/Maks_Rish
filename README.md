@@ -1,24 +1,28 @@
-# Maks_Rish
-[BUG] Soft Keyboard Overlaps 'Confirm Swap' Button on Android
+# 🛡️ Solana Mobile QA & UX Sentinel (Android)
 
-Environment:
-- OS: Android
-- Browser/Wallet: Phantom In-App Browser
-- Network: Mainnet-Beta
+> Hardcore manual QA & UX testing for Web3 mobile dApps. Finding critical bugs, broken wallet flows, and UI glitches on Android before your users do.
 
-Severity: Major
+---
 
-Description:
-When entering an amount in the input field, the Android soft keyboard pushes the UI layout upward, completely obscuring the 'Confirm Swap' button and preventing transaction execution.
+### ⚡ What I Do Best
+- **Mobile DApp Testing**: Deep inspection of dApps inside Phantom Browser, Solflare, and mobile Chrome on Android.
+- **Wallet & Transaction Validation**: Catching signature timeouts, RPC disconnects, and transaction simulation failures.
+- **UX/UI Bug Hunting**: Identifying layout overlaps, soft keyboard issues, and broken mobile navigation.
+- **Founder-Ready Reports**: Delivering clear, structured, step-by-step English bug reports with exact repro steps.
 
-Steps to Reproduce:
-1. Open dApp inside Phantom Browser on Android.
-2. Connect wallet.
-3. Tap on the token amount input field to trigger the soft keyboard.
-4. Observe the bottom action area.
+---
 
-Expected Result:
-The UI should scale properly or scroll, keeping the 'Confirm Swap' button visible and clickable above the keyboard.
+### 🛠️ Test Environment
+- **Device**: Android
+- **Wallets**: Phantom, Solflare, Backpack
+- **Network**: Solana Mainnet-Beta / Devnet
+- **Tools**: Screen Recording, Network Logs, ADB Debugging
 
-Actual Result:
-The button is completely covered by the keyboard, blocking the user journey.
+---
+
+### 📊 QA Focus & Expertise
+```text
+[Mobile UX/UI] ████████████████ 100%
+[Bug Reporting] ████████████████ 100%
+[Wallet Flow]   ████████████████ 100%
+
